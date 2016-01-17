@@ -79,11 +79,11 @@ section #services li div {
 section #services li div:hover {
     background-color: #e95462;
 }
-
+<!--Default right is : 14 -->
 .blink {
     color: #e95462;
     position: relative;
-    right: 1.4em;
+    right: 3.0em;
     float: right;
 }
 
