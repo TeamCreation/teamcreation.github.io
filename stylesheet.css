@@ -18,7 +18,7 @@ body, html {
     font-size: 100%;
     padding: 0;
     margin: 0;
-    background-color: #131313;
+    background-color: #111;
     color: #eee;
     cursor: default;
 }
@@ -79,11 +79,11 @@ section #services li div {
 section #services li div:hover {
     background-color: #e95462;
 }
-<!--Default right is : 14 -->
+
 .blink {
     color: #e95462;
     position: relative;
-    right: 10em;
+    right: 1.4em;
     float: right;
 }
 
