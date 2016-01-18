@@ -104,7 +104,7 @@ p{
 
 /*let's make it more realistic, so I added span tag, let's animate span*/
 span{
-	animation: blink 0.7s infinite;
+	animation: blink 0.5s infinite;
 }
 
 @keyframes blink{
