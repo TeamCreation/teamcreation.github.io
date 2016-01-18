@@ -89,17 +89,17 @@ section #services li div:hover {
 
 #blink {
     -webkit-animation-name: blink;
-    -webkit-animation-duration: 0.2s;
+    -webkit-animation-duration: 0.7s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
 
     -moz-animation-name: blink;
-    -moz-animation-duration: 0.2s;
+    -moz-animation-duration: 0.7s;
     -moz-animation-timing-function: linear;
     -moz-animation-iteration-count: infinite;
 
     animation-name: blink;
-    animation-duration: 0.2s;
+    animation-duration: 0.7s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
