@@ -89,10 +89,10 @@ body{
 /* font-size, positioning, visibility*/
 p{
 	font-size: 14px;
-	margin: 0px;
+	margin: 30px;
 	white-space:nowrap;
 	overflow: hidden;
-	width: 35em;
+	width: 30em;
 	animation: type 5s steps(55, end) 1;	
 }
 
