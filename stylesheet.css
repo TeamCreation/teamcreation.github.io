@@ -80,50 +80,42 @@ section #services li div:hover {
     background-color: #e95462;
 }
 
-.blink {
-    color: #e95462;
-    position: relative;
-    right: 0.0em;
-    float: right;
+/* At first let's give some style*/
+body{
+	background: #000;
+	color: lime;
 }
 
-#blink {
-    -webkit-animation-name: blink;
-    -webkit-animation-duration: 0.7s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-
-    -moz-animation-name: blink;
-    -moz-animation-duration: 0.7s;
-    -moz-animation-timing-function: linear;
-    -moz-animation-iteration-count: infinite;
-
-    animation-name: blink;
-    animation-duration: 0.7s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+/* font-size, positioning, visibility*/
+p{
+	font-size: 14px;
+	margin: 30px;
+	white-space:nowrap;
+	overflow: hidden;
+	width: 30em;
+	animation: type 5s steps(50, end) 1;	
 }
 
-@-moz-keyframes blink {  
-    0% { opacity: 1.0; }
-    50% { opacity: 1.0; }
-    51% { opacity: 0.0; }
-    100% { opacity: 0.0; }
+/* let's animate, it's super easy */
+@keyframes type{
+	from{ width: 0;}
+}
+/*looks like something is wrong, Fixed!!! */
+
+/*let's make it more realistic, so I added span tag, let's animate span*/
+span{
+	animation: blink 1s infinite;
 }
 
-@-webkit-keyframes blink {  
-    0% { opacity: 1.0; }
-    50% { opacity: 1.0; }
-    51% { opacity: 0.0; }
-    100% { opacity: 0.0; }
+@keyframes blink{
+	to{ opacity: .0;}
 }
 
-@keyframes blink {  
-    0% { opacity: 1.0; }
-    50% { opacity: 1.0; }
-    51% { opacity: 0.0; }
-    100% { opacity: 0.0; }
-}
+/*That's it. Enjoy!!! :) */
+
+
+
+
 IMG.displayed {
     display: block;
     margin-left: auto;
