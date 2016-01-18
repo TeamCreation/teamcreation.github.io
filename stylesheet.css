@@ -124,3 +124,7 @@ section #services li div:hover {
     51% { opacity: 0.0; }
     100% { opacity: 0.0; }
 }
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
