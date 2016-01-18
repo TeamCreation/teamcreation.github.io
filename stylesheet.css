@@ -79,3 +79,48 @@ section #services li div {
 section #services li div:hover {
     background-color: #e95462;
 }
+<!--Default right is : 14 -->
+.blink {
+    color: #e95462;
+    position: relative;
+    right: 10em;
+    float: right;
+}
+
+#blink {
+    -webkit-animation-name: blink;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blink;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blink {  
+    0% { opacity: 1.0; }
+    50% { opacity: 1.0; }
+    51% { opacity: 0.0; }
+    100% { opacity: 0.0; }
+}
+
+@-webkit-keyframes blink {  
+    0% { opacity: 1.0; }
+    50% { opacity: 1.0; }
+    51% { opacity: 0.0; }
+    100% { opacity: 0.0; }
+}
+
+@keyframes blink {  
+    0% { opacity: 1.0; }
+    50% { opacity: 1.0; }
+    51% { opacity: 0.0; }
+    100% { opacity: 0.0; }
+}
