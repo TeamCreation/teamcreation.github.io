@@ -88,7 +88,7 @@ body{
 
 /* font-size, positioning, visibility*/
 p{
-	font-size: 14px;
+	font-size: 100px;
 	margin: 30px;
 	white-space:nowrap;
 	overflow: hidden;
