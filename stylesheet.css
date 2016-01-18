@@ -82,8 +82,8 @@ section #services li div:hover {
 
 /* At first let's give some style*/
 body{
-	background: #a9a9a9;
-	color: lime;
+	background: #000;
+	color: white;
 }
 
 /* font-size, positioning, visibility*/
