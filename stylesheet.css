@@ -82,7 +82,7 @@ section #services li div:hover {
 
 /* At first let's give some style*/
 body{
-	background: #000;
+	background: #a9a9a9;
 	color: lime;
 }
 
@@ -104,7 +104,7 @@ p{
 
 /*let's make it more realistic, so I added span tag, let's animate span*/
 span{
-	animation: blink 1s infinite;
+	animation: blink 0.7s infinite;
 }
 
 @keyframes blink{
