@@ -90,7 +90,7 @@ p{
 	font-size: 40px;
 	white-space:nowrap;
 	overflow: hidden;
-	margin: 30em;
+	margin: 30px;
 	width: 35em;
 	animation: type 5s steps(55, end) 1;	
 }
