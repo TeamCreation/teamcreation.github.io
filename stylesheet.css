@@ -77,7 +77,7 @@ p{
 	white-space:nowrap;
 	overflow: hidden;
 	width: 35em;
-	animation: type 5s steps(55, end) 1;	
+	animation: type 5s steps(53, end) 1;	
 }
 @keyframes type{
 	from{ width: 0;}
