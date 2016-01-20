@@ -72,12 +72,12 @@ body{
 	color: white;
 }
 p{
-	font-size: 40px;
+	font-size: 14px;
 	margin: 30px;
 	white-space:nowrap;
 	overflow: hidden;
-	width: 35em;
-	animation: type 5s steps(53, end) 1;	
+	width: 30em;
+	animation: type 5s steps(50, end) 1;		
 }
 @keyframes type{
 	from{ width: 0;}
