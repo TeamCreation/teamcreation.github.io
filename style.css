@@ -13,6 +13,13 @@ fieldset>a>div>div>label.detail {
   -ms-user-select: element;
   user-select: element
 }
+
+.footer {
+    color: #fff;
+    margin-top: 40em;
+    font-size: .6em;
+    text-align: center;
+}
 fieldset>a[href] {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent
