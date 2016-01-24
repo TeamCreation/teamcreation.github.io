@@ -1,10 +1,10 @@
 Package: net.winneonsword.package
-Name: Test Package
-Version: 1.0
+Name: Test Package 
+Version: 0.0.0.1
 Architecture: iphoneos-arm
-Description: This is a test package from /u/WinneonSword's tutorial repository!
+Description: Testing TeamCreation 
 Depiction: http://repo.winneonsword.net/packages/package.html
-Homepage: http://repo.winneonsword.net
-Maintainer: Jesse Bryan <winneonsword@gmail.com>
-Author: Jesse Bryan <winneonsword@gmail.com>
-Section: Themes
+Homepage: http://Teamcreation.github.io
+Maintainer: TeamCreation <team.creation15@gmail.com>
+Author: TeamCreation <team.creation15@gmail.com>
+Section: Tweaks
